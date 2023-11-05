@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 50px ;
+    background-color: blue;
+    
+}
+#header-one li{
+    display: inline-block;
+    
+}
+#header-one li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 50px;
+    padding: 0 20px;
+}
+#header-one li:hover a{
+    background-color: #000;
+    display: inline-block;
+
+}
+#header-one .his {
+    display: none;
+}
+
+
+/* .logo{
+    width:50px;
+    margin: 10px 0 0 10px ;
+}
+.home::after{
+    display: flex;
+    text-align: center;
+} */
